@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 
+const cors = require('cors')
+app.use(cors())
 // api data
 const witcherChars = {
     'geralt':{

@@ -1,4 +1,4 @@
-document.querySelector('botton').addEventListener('click',getWitcherName)
+document.querySelector('button').addEventListener('click',getWitcherName)
 
 async function getWitcherName(){
     const witchName = document.querySelector('input').value
